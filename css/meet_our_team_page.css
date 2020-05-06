@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	background-color: white;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: sans-serif, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	overflow-x: hidden;
+	background-image: url(../image/back_image.jpg);
+	background-position: center;
+	background-size: contain;
+
+	/*visibility: hidden;*/
+
+}
+
+
+[data-aos="show"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[data-aos="show"].aos-animate {
+  opacity: 1;
+}
+
+[data-aos="disappear"] {
+  opacity: 1;
+  transition-property: opacity;
+}
+
+[data-aos="disappear"].aos-animate {
+  opacity: 0;
+
+}
+
+
+.height_100{
+	height: 101%;
+	width: auto;
+}
+
+.width_100{
+	width: 101%;
+	height: auto;
+}
+
+.black_w{
+	color: black;
+}
+
+.black_bg{
+	background-color: black;
+}
+
+.white_w{
+	color: white;
+}
+
+.blue_w{
+	color: #2C9AB7;
+}
+
+.opacity_100{
+	opacity: 1;
+}
+
+.opacity_30{
+	opacity: 0.3;
+}
+
+
+
+/*self introduction*/
+.self_introduction{
+	/*margin-top: 150px;*/
+	background-color: black;
+	width: 90%;
+	height: 600px;
+	margin: 50px 5%;
+
+	/*overflow: hidden;*/
+}
+
+.short_info{
+	float: right;
+	width: 40%;
+	font-family: monospace;
+	background-color: black;
+	padding: 0 5%;
+
+}
+
+.short_info h5{
+	padding-top: 200px;
+	font-size: 40px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.short_info h4{
+	font-size: 16px;
+	width: 100%;
+	margin: 0px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    padding: 16px 0;
+    color: #2C9AB7;
+    line-height: 20px;
+
+}
+
+.short_info p{
+	font-size: 20px;
+	width: 100%;
+	margin: 0px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    color: white;
+    line-height: 24px;
+
+}
+
+
+.self_pic_holder{
+	float: right;
+	width: 50%;
+	height: 600px;
+	overflow-y: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.self_pic_holder img{
+	width: 100%;
+
+}
+
